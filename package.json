@@ -1,0 +1,24 @@
+{
+  "name": "vapi-discord-bot",
+  "version": "1.0.0",
+  "description": "Discord bot for Vapi voice calls",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "dev": "nodemon --exec ts-node src/index.ts",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@vapi-ai/server-sdk": "^0.5.2",
+    "discord.js": "^14.18.0",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.10",
+    "nodemon": "^3.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.2"
+  },
+  "author": "",
+  "license": "ISC"
+}
