@@ -18,10 +18,10 @@ A Discord bot that allows making voice calls with Vapi's AI assistants.
    ```
 3. Copy `.env.example` to `.env` and fill it with these credentials:
    - DISCORD_CLIENT_ID: 1361016921104973904 
-   - DISCORD_TOKEN: MTM2MTAxNjkyMTEwNDk3MzkwNA.GNrCTX.GBHQAllpLWolqG5hl-oWmICQFEhlwle3Z24UOg 
-   - VAPI_PRIVATE_KEY: Your Vapi private API key
-   - VAPI_PUBLIC_KEY: Your Vapi public API key
-   - VAPI_ASSISTANT_ID: ID of the Vapi assistant to use
+   - DISCORD_TOKEN: [Enter your Discord Token]
+   - VAPI_PRIVATE_KEY: [Enter Your Vapi private API key]
+   - VAPI_PUBLIC_KEY: [Enter Your Vapi public API key]
+   - VAPI_ASSISTANT_ID: [Enter ID of the Vapi assistant to use]
 
 4. Build the application
    ```
